@@ -4,6 +4,7 @@
   "description": "Realtime chat app developed in MERN stack using socket.io",
   "main": "server.js",
   "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
     "dev": "nodemon backend/server.js",
     "start": "node backend/server.js"
   },
